@@ -2,12 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Samo Seljak",
-    "label": "Data scientist",
+    "label": "Senior Data Engineer",
     "image": "",
     "email": "samo.bn@gmail.com",
     "phone": "+45 3117 8765",
-    "url": "",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Data professional with experience in data engineering, sustainability, and data science. Highly proficient in Python and SQL. I'm applying to this position because I'm passionate about solving complex problems and having a positive impact on clinical drug development and clinical operations.",
     "location": {
       "address": "Skoleholdervej 79, 2. tv",
       "postalCode": "2400",
@@ -30,112 +29,161 @@
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "EIVEE",
+      "location": "Copenhagen, DK",
+      "description": "Carbon accounting scale-up",
+      "position": "Data engineer",
+      "url": "https://www.eivee.io/about",
+      "startDate": "2024-02-01",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
+        "Generalized and developed the Product Carbon Footprint offering, which drove majority of sales in 2024.",
+        "Collaborated with sustainability experts to translate business and regulatory requirements into code.",
+        "Developed and maintained the code repository for data transformations.",
+        "Onboarded two senior data engineers, working in an agile team setup."
+      ],
+      "summary": "Core product development, focusing on scaling and standardizing the company's offerings. Ensuring correctness of business logic and data sources."
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": ["Awarded 'Teacher of the Month'"]
+      "name": "EIVEE",
+      "location": "Copenhagen, DK",
+      "description": "Carbon accounting scale-up",
+      "position": "Data solutions engineer",
+      "url": "https://www.eivee.io/about",
+      "startDate": "2023-02-01",
+      "endDate": "2024-01-31",
+      "summary": "Designed and implemented custom data solutions for climate accounting dashboards, working closely with clients to analyze their data landscape and create efficient, scalable pipelines.",
+      "highlights": [
+        "Lead the company's largest and most complex implementation project, delivering significant value and revenue.",
+        "Implemented a greenfield solution which later became the company's main offering.",
+        "Collaborated closely with product, tech, and customer success departments to ensure efficient delivery.",
+        "Contributed to team growth through code reviews and mentoring of junior colleagues."
+      ]
+    },
+    {
+      "name": "CurveX",
+      "location": "Copenhagen, DK",
+      "description": "Health tech start-up",
+      "position": "Data scientist",
+      "startDate": "2022-12-01",
+      "endDate": "2023-05-31",
+      "summary": "Developed and deployed ML models for ADHD detection in patients based on EEG recordings.",
+      "highlights": [
+        "Developed CNN model with over 80% accuracy in detecting ADHD in children under 14.",
+        "Collaborated with neuroscientists to implement custom mental health metrics.",
+        "Applied numerical techniques for outlier detection and bootstrapping."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+      "institution": "University of Ljubljana",
+      "url": "https://www.uni-lj.si/en",
+      "area": "Mathematics",
+      "studyType": "Master's degree",
+      "startDate": "2015-10-01",
+      "endDate": "2018-09-30"
+    },
+    {
+      "institution": "University of Ljubljana",
+      "url": "https://www.uni-lj.si/en",
+      "area": "Mathematics",
+      "studyType": "Bachelor's degree",
+      "startDate": "2009-10-01",
+      "endDate": "2015-09-30"
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Bronze medal",
+      "date": "2022-12-31",
+      "awarder": "Kaggle",
+      "summary": "Santa 2022. Yearly optimization competition, placed 55th out of 874.",
+      "url": "https://www.kaggle.com/competitions/santa-2022"
     }
   ],
-  "publications": [
+  "volunteer": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "organization": "Open source software community",
+      "startDate": "2022-06-01",
+      "endDate": "2023-01-31",
+      "position": "Contributor",
+      "summary": "Contributed to open source projects, mainly pandas and sk-learn.",
+      "highlights": [
+        "Expanded coverage of `.attrs` metadata feature for pandas DataFrames.",
+        "Expanded coverage of copy-on-write behaviour for pandas DataFrames."
+      ],
+      "url": "https://pandas.pydata.org/pandas-docs/version/2.0/whatsnew/v2.0.0.html#contributors"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "name": "Data management",
+      "keywords": [
+        "ETL",
+        "ELT",
+        "Ingestion",
+        "Orchestration",
+        "Analytics",
+        "Modelling"
+      ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": ["Mpeg", "MP4", "GIF"]
+      "name": "Mathematics",
+      "keywords": [
+        "Statistics",
+        "Machine learning",
+        "Optimization",
+        "Time series analysis"
+      ]
+    },
+    {
+      "name": "Software development",
+      "keywords": ["CI/CD", "Version control", "Test driven development"]
+    },
+    {
+      "name": "Programming languages",
+      "keywords": ["Python", "SQL", "Bash", "Rust"]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Github Actions",
+        "Docker",
+        "Git",
+        "PostgreSQL",
+        "GCP",
+        "Zed / vim",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Libraries and frameworks",
+      "keywords": [
+        "pytest",
+        "pyspark",
+        "polars",
+        "pandas",
+        "seaborne",
+        "django",
+        "poetry",
+        "dbt"
+      ]
     }
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "Slovenian",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "http://missdirection.example.com",
-      "roles": ["Team lead", "Designer"],
-      "entity": "Smoogle",
-      "type": "application"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "even"
   }
 }

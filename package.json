@@ -1,6 +1,18 @@
 {
   "dependencies": {
+    "@jsonresume/jsonresume-theme-professional": "^1.0.16",
+    "jsonresume-theme-bufferbloat": "^1.0.2",
+    "jsonresume-theme-class": "^0.1.2",
+    "jsonresume-theme-crisp": "^0.2.12",
+    "jsonresume-theme-cv": "^0.0.0",
+    "jsonresume-theme-dev-ats": "^0.2.5",
+    "jsonresume-theme-elite": "^1.2.0",
+    "jsonresume-theme-engineering": "^0.2.0",
     "jsonresume-theme-even": "^0.23.0",
+    "jsonresume-theme-minyma": "^0.0.5",
+    "jsonresume-theme-professional": "^1.1.0",
+    "jsonresume-theme-vitae": "^1.0.0",
+    "resume-cli": "^3.0.8",
     "resumed": "^4.0.0"
   }
 }
